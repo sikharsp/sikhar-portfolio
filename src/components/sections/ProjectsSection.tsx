@@ -16,7 +16,7 @@ const projects = [
   tech: ['React', 'Vite', 'Tailwind CSS', 'PHP'],
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcAKu2ZtaYsDG6HknODTZKiejJvAG0hDP1WA&s',
   github: 'https://github.com/sikharsp/future-mail',
-  demo: 'https://github.com/sikharsp/future-mail',
+  demo: 'https://future-mail-psi.vercel.app/,
 }
 
 ];
