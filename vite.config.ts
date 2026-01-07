@@ -3,9 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sikhar-Portfolio/", // Set this to your GitHub repo name
+  base: "/", // ✅ REQUIRED for custom domain
   server: {
     host: "0.0.0.0",
     port: 8080,
@@ -20,8 +19,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: "dist",  // Vite build folder
-    sourcemap: false, // optional: disable source maps
+    outDir: "dist",
+    sourcemap: false,
     rollupOptions: {
       output: {
         chunkFileNames: "assets/[name]-[hash].js",
