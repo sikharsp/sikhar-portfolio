@@ -1,3 +1,4 @@
+cat << 'EOF' > _headers
 /assets/*.js
   Content-Type: application/javascript
 
@@ -6,3 +7,4 @@
 
 /*.js
   Content-Type: application/javascript
+EOF
